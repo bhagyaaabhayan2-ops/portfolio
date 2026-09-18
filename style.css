@@ -43,6 +43,7 @@ body {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-bright);
+  text-decoration: none;
 }
 
 .nav {
@@ -97,6 +98,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   font-size: 0.95rem;
+  display: inline-block;
   transition: all 0.2s;
 }
 
@@ -118,7 +120,7 @@ body {
   border-color: var(--text-main);
 }
 
-/* Sections */
+/* Sections & Cards */
 .section {
   padding: 4rem 10%;
 }
@@ -161,6 +163,7 @@ body {
 .tags {
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .tags span {
